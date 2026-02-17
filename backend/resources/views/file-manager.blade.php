@@ -27,6 +27,32 @@
             text-align: center;
             color: white;
             margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .header-logo {
+            width: 100px;
+            height: 100px;
+            background: white;
+            border-radius: 50%;
+            padding: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 0.8s ease-in;
+        }
+
+        .header-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .header-content {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
         }
 
         .header h1 {
@@ -37,6 +63,17 @@
         .header p {
             font-size: 1.1rem;
             opacity: 0.9;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .card {
@@ -285,8 +322,14 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>📁 Leader Data Service</h1>
-            <p>File Management System</p>
+            <div class="header-logo">
+                <img src="/images/chomthong-hospital-logo.svg" alt="Chomthong Hospital Logo">
+            </div>
+            <div class="header-content">
+                <h1>📁 Leader Data Service</h1>
+                <p>File Management System</p>
+                <p style="font-size: 0.9rem; margin-top: 5px;">Chomthong Hospital - Chiang Mai</p>
+            </div>
         </div>
 
         <div id="alertBox" class="alert"></div>

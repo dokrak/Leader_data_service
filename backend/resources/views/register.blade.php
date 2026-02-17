@@ -33,6 +33,16 @@
         .logo {
             text-align: center;
             margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo-image {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
         }
 
         .logo h1 {
@@ -138,9 +148,10 @@
 <body>
     <div class="register-container">
         <div class="logo">
-            <h1>🏥</h1>
+            <img src="/images/chomthong-hospital-logo.svg" alt="Chomthong Hospital Logo" class="logo-image">
             <h1>Create Account</h1>
             <p>Join Leader Data Service</p>
+            <p style="font-size: 0.85rem; color: #a0aec0;">Chomthong Hospital</p>
         </div>
 
         <div id="alertBox" class="alert"></div>

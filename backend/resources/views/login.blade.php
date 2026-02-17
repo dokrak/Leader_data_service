@@ -56,6 +56,11 @@
             font-size: 1rem;
         }
 
+        .hospital-identifier {
+            font-size: 0.85rem;
+            color: #a0aec0;
+        }
+
         .form-group {
             margin-bottom: 25px;
         }
@@ -143,7 +148,7 @@
             <img src="/images/chomthong-hospital-logo.svg" alt="Chomthong Hospital Logo" class="logo-image">
             <h1>Leader Data Service</h1>
             <p>Hospital File Management System</p>
-            <p style="font-size: 0.85rem; color: #a0aec0;">Chomthong Hospital</p>
+            <p class="hospital-identifier">Chomthong Hospital</p>
         </div>
 
         <div id="alertBox" class="alert"></div>

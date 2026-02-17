@@ -65,6 +65,11 @@
             opacity: 0.9;
         }
 
+        .hospital-location {
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+
         @keyframes fadeIn {
             from {
                 opacity: 0;
@@ -328,7 +333,7 @@
             <div class="header-content">
                 <h1>📁 Leader Data Service</h1>
                 <p>File Management System</p>
-                <p style="font-size: 0.9rem; margin-top: 5px;">Chomthong Hospital - Chiang Mai</p>
+                <p class="hospital-location">Chomthong Hospital - Chiang Mai</p>
             </div>
         </div>
 

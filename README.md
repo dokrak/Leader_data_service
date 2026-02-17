@@ -19,6 +19,8 @@ A file management system for collecting and managing Lead Team data and document
 
 ## 🚀 Quick Start
 
+> 🌐 **New to the project?** See the [Browser Access Guide](BROWSER_GUIDE.md) for detailed instructions on how to access and use the application in your browser.
+
 ### Option 1: GitHub Codespaces (Fastest)
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dokrak/Leader_data_service)
@@ -60,7 +62,9 @@ php artisan db:seed
 php artisan serve
 ```
 
-Access the application at `http://localhost:8000`
+**Access in Browser:** Open `http://localhost:8000` in your web browser
+
+📖 **Detailed browser instructions:** [BROWSER_GUIDE.md](BROWSER_GUIDE.md)
 
 ## 📋 API Endpoints
 
@@ -152,6 +156,12 @@ Leader_data_service/
 **Demo URL:** `https://sturdy-space-robot-xrj9wxgp6v7265gg-8000.app.github.dev/`
 
 *(Available when developer's Codespace is running)*
+
+## 📚 Documentation
+
+- **[Browser Access Guide](BROWSER_GUIDE.md)** - How to access and use the application in your browser
+- **[Deployment Guide](DEPLOYMENT.md)** - Production server deployment instructions
+- **[New Features](NEW_FEATURES.md)** - Latest features and updates
 
 ## 🤝 Contributing
 

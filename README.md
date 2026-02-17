@@ -6,6 +6,12 @@ A file management system for collecting and managing Lead Team data and document
 ![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?logo=php)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+## 🎯 Want to Display the Project in Browser?
+
+**→ [Quick Start Guide (3 Steps)](QUICK_START.md)** - Get up and running in minutes!
+
+**→ [Browser Access Guide](BROWSER_GUIDE.md)** - Detailed instructions and troubleshooting
+
 ## ✨ Features
 
 - 📤 **File Upload** - Drag & drop or browse to upload files
@@ -18,6 +24,8 @@ A file management system for collecting and managing Lead Team data and document
 - 💾 **Storage Stats** - Real-time storage statistics
 
 ## 🚀 Quick Start
+
+> 🌐 **Want to display in browser?** See [QUICK_START.md](QUICK_START.md) for a 3-step guide, or [BROWSER_GUIDE.md](BROWSER_GUIDE.md) for detailed instructions.
 
 ### Option 1: GitHub Codespaces (Fastest)
 
@@ -60,7 +68,9 @@ php artisan db:seed
 php artisan serve
 ```
 
-Access the application at `http://localhost:8000`
+**Access in Browser:** Open `http://localhost:8000` in your web browser
+
+📖 **Detailed browser instructions:** [BROWSER_GUIDE.md](BROWSER_GUIDE.md)
 
 ## 📋 API Endpoints
 
@@ -152,6 +162,12 @@ Leader_data_service/
 **Demo URL:** `https://sturdy-space-robot-xrj9wxgp6v7265gg-8000.app.github.dev/`
 
 *(Available when developer's Codespace is running)*
+
+## 📚 Documentation
+
+- **[Browser Access Guide](BROWSER_GUIDE.md)** - How to access and use the application in your browser
+- **[Deployment Guide](DEPLOYMENT.md)** - Production server deployment instructions
+- **[New Features](NEW_FEATURES.md)** - Latest features and updates
 
 ## 🤝 Contributing
 
